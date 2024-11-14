@@ -1,0 +1,37 @@
+.navbar{
+
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    box-shadow: rgba(223, 204, 204, 0.908) 0px 2px 8px;
+    background-color: #4da9d3bc;
+}
+
+.navbar h3{
+
+    color: #0f0f0f;
+    margin: 0;
+    cursor: default;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+
+.nav-options{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.nav-options p{
+    margin: 0;
+    color: rgb(17, 16, 16);
+    cursor: pointer;
+    font: size 13px;
+}
+
+.nav-options p:hover{
+
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}

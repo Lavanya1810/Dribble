@@ -1,0 +1,168 @@
+.landing-page{
+
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-hero{
+
+    background: url('../images/landing_bg.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.landing-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 2vw;
+    align-items: center;
+}
+
+.landing-nav h3{
+
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff
+}
+
+.landing-nav button{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #00000000;
+    border: 1.5px solid #000000;
+    color: #000000;
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.landing-nav button:hover{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #f4dada43;
+    border: 1.5px solid #da4a4a43;
+    color: #000000ee;
+
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.landing-nav > h3 {
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+
+.landing-hero-text{
+
+    width: 70%;
+    margin-top: 10vh;
+    margin-left: 15%;
+    text-align: center;
+    color: #F2F2F2;
+    z-index: -1;
+    
+}
+
+.landing-hero-text h1{
+
+    font-size: 8rem;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 70px;
+    transition: opacity 0.5s ease; /* Smooth fade */
+    color: #ffffff;
+}
+
+
+
+.landing-hero-text p{
+
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+}
+
+#one-button{
+
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: rgb(185, 180, 180);
+    border: 1.5px solid #e1d5d5ab;
+    color: #000000;
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#one-button:hover{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: rgb(157, 157, 157);
+    border: 1.5px solid #e1d5d567;
+    color: black;
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+/*.about-us{
+    margin-top: 30px;
+}*/
+/* Make navigation and hero content sticky */
+
+
+/* About Us Section */
+.about-us {
+    display: block;
+    width: 100vw;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 50px;
+    margin-top: 5vh; /* Start About Us section after the full height of the hero section */
+    text-align: left;
+    margin-left: calc(50% - 51vw); /* Center aligns the section on the full viewport width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    transition: opacity 0.5s ease; /* Smooth fade */
+    
+    
+}
+
+.about-us h3 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us p {
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.scroll-down {
+    margin-top: 10px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    color: #ffffffe4;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 80px;
+  }
