@@ -43,7 +43,7 @@ DRIBBBLE is a dynamic freelancing platform built using the MERN (MongoDB, Expres
 
 1. *Clone the repository:*
    
-   git clone https://github.com/lavanya1810/dribbble.git
+   git clone https://github.com/Lavanya1810/Dribbble.git
    cd dribbble
    
 
