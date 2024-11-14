@@ -44,22 +44,23 @@ DRIBBBLE is a dynamic freelancing platform built using the MERN (MongoDB, Expres
 1. *Clone the repository:*
    
    git clone https://github.com/Lavanya1810/Dribbble.git
-   cd dribbble
+   
+   cd Dribbble
    
 
-2. *Install server dependencies:*
+3. *Install server dependencies:*
    
    cd server
    npm install
    
 
-3. *Install client dependencies:*
+4. *Install client dependencies:*
    
    cd ../client
    npm install
    
 
-4. *Run the development environment:*
+5. *Run the development environment:*
    - *Server*:
      
      cd server
@@ -71,7 +72,7 @@ DRIBBBLE is a dynamic freelancing platform built using the MERN (MongoDB, Expres
      npm start
      
 
-5. *Environment variables:*
+6. *Environment variables:*
    Ensure that the index.js file in the server directory is configured with the correct MongoDB URI.
 
 
