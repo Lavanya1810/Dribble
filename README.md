@@ -57,7 +57,7 @@ DRIBBBLE is a dynamic freelancing platform built using the MERN (MongoDB, Expres
 
 3. *Install client dependencies:*
    ```
-   cd ../client
+   cd client
    npm install
    ```
 
@@ -69,7 +69,7 @@ DRIBBBLE is a dynamic freelancing platform built using the MERN (MongoDB, Expres
      ```
    - *Client*:
      ```
-     cd ../client
+     cd client
      npm start
      ```
 
